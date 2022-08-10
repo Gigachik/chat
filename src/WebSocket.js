@@ -7,7 +7,7 @@ const WebSocket = () => {
     const [connected, setConnected] = useState(true);
     const [username, setUsername] = useState("");
     const socket = useRef();
-
+    // test changing file
     function connect() {
         socket.current = new WebSocket("ws://localhost:3000");
 
